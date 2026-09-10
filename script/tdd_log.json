@@ -712,9 +712,39 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ef5ba42ca0f061afbc1c92140c2e3a2dc07026cf",
     "commitName": "feat: aplicar descuento para material de escritorio",
     "commitTimestamp": 1789019071363,
     "testId": 24
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1789019118626,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789019145671,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789019254433,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto para muebles",
+    "commitTimestamp": 1789019316405,
+    "testId": 25
   }
 ]

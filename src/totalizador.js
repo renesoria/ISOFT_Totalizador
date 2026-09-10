@@ -31,6 +31,7 @@ const DESCUENTOS_CATEGORIA = {
 
 const IMPUESTOS_CATEGORIA = {
   "Bebidas alcohólicas": 0.07,
+  Muebles: 0.03,
 };
 
 class Totalizador {

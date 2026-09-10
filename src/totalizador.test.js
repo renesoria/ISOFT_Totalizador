@@ -147,4 +147,11 @@ it("deberia aplicar 1.5% de descuento adicional para Material de escritorio", ()
     totalizador.calcularDescuento(1000, "Material de escritorio")
   ).toBeCloseTo(45);
 });
+it("deberia aplicar 3% de impuesto adicional para Muebles", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularImpuesto(100, "CA", "Muebles")).toBeCloseTo(
+    11.25
+  );
+});
 });
