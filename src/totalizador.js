@@ -20,10 +20,16 @@ class Totalizador {
 
     return precioNeto * tasaImpuesto;
   }
-
-  calcularPrecioTotal(precioNeto, impuesto) {
-    return precioNeto + impuesto;
+calcularDescuento(precioNeto) {
+  if (precioNeto >= 1000) {
+    return precioNeto * 0.03;
   }
+
+  return 0;
+}
+calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
+  return precioNeto + impuesto - descuento;
+}
 }
 
 export default Totalizador;

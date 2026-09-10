@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1525b7a09326db7a5ba527b95ca3ddcbdc92be6d",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T03:52:21.000Z",
       "message": "feat: calcular impuesto para TX",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/1525b7a09326db7a5ba527b95ca3ddcbdc92be6d"
     },
     "stats": {
       "total": 6,
@@ -148,6 +148,25 @@
     },
     "coverage": 87.5,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T03:59:30.000Z",
+      "message": "feat: aplicar descuento de 3%",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 26,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 90.91,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

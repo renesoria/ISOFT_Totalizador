@@ -37,4 +37,21 @@ it("deberia calcular el impuesto para TX", () => {
 
   expect(totalizador.calcularImpuesto(60, "TX")).toBeCloseTo(3.75);
 });
+it("deberia aplicar descuento de 3% para precio neto mayor o igual a 1000", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(1000)).toEqual(30);
+});
+it("deberia retornar descuento 0 para precio neto menor a 1000", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(60)).toEqual(0);
+});
+it("deberia calcular el precio total incluyendo el descuento", () => {
+  let totalizador = new Totalizador();
+
+  expect(
+    totalizador.calcularPrecioTotal(1000, 80.025, 30)
+  ).toBeCloseTo(1050.025);
+});
 });
