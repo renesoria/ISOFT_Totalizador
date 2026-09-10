@@ -260,4 +260,9 @@ it("deberia aplicar 200 de descuento fijo a Especial con Electrónicos sobre 700
     totalizador.calcularDescuentoFijo(7001, "Electrónicos", "Especial")
   ).toEqual(200);
 });
+it("deberia indicar que el peso vacio es invalido", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.validarPeso("")).toEqual(false);
+});
 });

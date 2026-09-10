@@ -1232,9 +1232,39 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c835b52daaee832b40aca0efdf8a21af577d99e",
     "commitName": "feat: aplicar descuento fijo a especial con electronicos",
     "commitTimestamp": 1789022370786,
     "testId": 40
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789022426050,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789022456484,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789022530279,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar peso volumetrico",
+    "commitTimestamp": 1789022562422,
+    "testId": 41
   }
 ]

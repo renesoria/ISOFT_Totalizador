@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c835b52daaee832b40aca0efdf8a21af577d99e",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:39:29.000Z",
       "message": "feat: aplicar descuento fijo a especial con electronicos",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/1c835b52daaee832b40aca0efdf8a21af577d99e"
     },
     "stats": {
       "total": 15,
@@ -775,6 +775,25 @@
     },
     "coverage": 94.44,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:42:40.000Z",
+      "message": "feat: validar peso volumetrico",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 21,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 91.38,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }
