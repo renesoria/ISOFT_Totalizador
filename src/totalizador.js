@@ -44,6 +44,10 @@ const IMPUESTOS_CATEGORIA = {
   Vestimenta: 0.02,
 };
 
+const DESCUENTOS_ENVIO = {
+  Recurrente: 0.005,
+};
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
@@ -132,6 +136,11 @@ class Totalizador {
   }
 
   return 9 * cantidad;
+    }
+    calcularDescuentoEnvio(costoEnvio, tipoCliente = "Normal") {
+  const tasaDescuento = DESCUENTOS_ENVIO[tipoCliente] || 0;
+
+  return costoEnvio * tasaDescuento;
     }
     validarCantidad(cantidad) {
     return cantidad > 0;

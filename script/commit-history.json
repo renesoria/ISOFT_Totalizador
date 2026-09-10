@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a070eee262ca8538f210c946eb2cca66970778a1",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:22:55.000Z",
       "message": "feat: agregar selector de tipo de cliente",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/a070eee262ca8538f210c946eb2cca66970778a1"
     },
     "stats": {
       "total": 39,
@@ -680,6 +680,25 @@
     },
     "coverage": 95.65,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:26:32.000Z",
+      "message": "feat: aplicar descuento de envio para recurrente",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 24,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.92,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

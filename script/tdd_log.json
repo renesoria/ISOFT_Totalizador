@@ -1074,9 +1074,39 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a070eee262ca8538f210c946eb2cca66970778a1",
     "commitName": "feat: agregar selector de tipo de cliente",
     "commitTimestamp": 1789021377422,
     "testId": 35
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1789021436138,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1789021469419,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1789021554850,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de envio para recurrente",
+    "commitTimestamp": 1789021594387,
+    "testId": 36
   }
 ]

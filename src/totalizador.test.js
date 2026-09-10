@@ -225,4 +225,11 @@ it("deberia obtener tipos de cliente con Normal como opcion inicial", () => {
     "Especial",
   ]);
 });
+it("deberia aplicar 0.5% de descuento al envio para Recurrente", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuentoEnvio(100, "Recurrente")).toBeCloseTo(
+    0.5
+  );
+});
 });

@@ -119,12 +119,17 @@ form.addEventListener("submit", (event) => {
 
   const costoEnvio =
     totalizador.calcularCostoEnvio(pesoVolumetrico, cantidadItems) ?? 0;
+  const descuentoEnvio = totalizador.calcularDescuentoEnvio(
+    costoEnvio,
+    tipoCliente
+  );
+  const envioFinal = costoEnvio - descuentoEnvio;
 
   const precioTotal = totalizador.calcularPrecioTotal(
     precioNeto,
     impuesto,
     descuento,
-    costoEnvio
+    envioFinal
   );
 
   div.innerHTML =
@@ -137,5 +142,7 @@ form.addEventListener("submit", (event) => {
     porcentajeImpuesto + "%): $" +
     formatearMonto(impuesto) + "</p>" +
     "<p>Envío: $" + formatearMonto(costoEnvio) + "</p>" +
+    "<p>Descuento de envío: $" + formatearMonto(descuentoEnvio) + "</p>" +
+    "<p>Envío final: $" + formatearMonto(envioFinal) + "</p>" +
     "<p>Precio total: $" + formatearMonto(precioTotal) + "</p>";
 });
