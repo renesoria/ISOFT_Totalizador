@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "42806f6b0764aa654f59f785ec698533b7f763d0",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T05:48:34.000Z",
       "message": "feat: aplicar impuesto para muebles",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/42806f6b0764aa654f59f785ec698533b7f763d0"
     },
     "stats": {
       "total": 8,
@@ -490,6 +490,25 @@
     },
     "coverage": 93.55,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T05:52:30.000Z",
+      "message": "feat: aplicar ajustes para electronicos",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.55,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

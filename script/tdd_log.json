@@ -742,9 +742,55 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42806f6b0764aa654f59f785ec698533b7f763d0",
     "commitName": "feat: aplicar impuesto para muebles",
     "commitTimestamp": 1789019316405,
     "testId": 25
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789019379635,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789019404752,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1789019434428,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1789019460690,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1789019516719,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar ajustes para electronicos",
+    "commitTimestamp": 1789019553397,
+    "testId": 26
   }
 ]

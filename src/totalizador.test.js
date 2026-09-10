@@ -154,4 +154,16 @@ it("deberia aplicar 3% de impuesto adicional para Muebles", () => {
     11.25
   );
 });
+it("deberia aplicar 1% de descuento adicional para Electrónicos", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(1000, "Electrónicos")).toBeCloseTo(40);
+});
+it("deberia aplicar 4% de impuesto adicional para Electrónicos", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularImpuesto(100, "CA", "Electrónicos")).toBeCloseTo(
+    12.25
+  );
+});
 });

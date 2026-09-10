@@ -27,11 +27,13 @@ const CATEGORIAS = [
 const DESCUENTOS_CATEGORIA = {
   Alimentos: 0.02,
   "Material de escritorio": 0.015,
+  "Electrónicos": 0.01,
 };
 
 const IMPUESTOS_CATEGORIA = {
   "Bebidas alcohólicas": 0.07,
   Muebles: 0.03,
+  "Electrónicos": 0.04,
 };
 
 class Totalizador {
