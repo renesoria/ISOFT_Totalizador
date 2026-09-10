@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0172373c1cdb59e5d12b3b5b70b952cd452c04e3",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T05:38:29.000Z",
       "message": "feat: aplicar descuento para alimentos",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/0172373c1cdb59e5d12b3b5b70b952cd452c04e3"
     },
     "stats": {
       "total": 31,
@@ -433,6 +433,25 @@
     },
     "coverage": 93.1,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T05:42:01.000Z",
+      "message": "feat: aplicar impuesto para bebidas alcoholicas",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 26,
+      "deletions": 6,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.55,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

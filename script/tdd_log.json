@@ -644,9 +644,47 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0172373c1cdb59e5d12b3b5b70b952cd452c04e3",
     "commitName": "feat: aplicar descuento para alimentos",
     "commitTimestamp": 1789018711249,
     "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789018771909,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789018797941,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789018859400,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789018891789,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto para bebidas alcoholicas",
+    "commitTimestamp": 1789018922928,
+    "testId": 23
   }
 ]

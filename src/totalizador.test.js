@@ -133,4 +133,11 @@ it("deberia aplicar 2% de descuento adicional para Alimentos", () => {
 
   expect(totalizador.calcularDescuento(1000, "Alimentos")).toEqual(50);
 });
+it("deberia aplicar 7% de impuesto adicional para Bebidas alcohólicas", () => {
+  let totalizador = new Totalizador();
+
+  expect(
+    totalizador.calcularImpuesto(100, "CA", "Bebidas alcohólicas")
+  ).toBeCloseTo(15.25);
+});
 });

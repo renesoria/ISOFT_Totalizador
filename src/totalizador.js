@@ -28,13 +28,20 @@ const DESCUENTOS_CATEGORIA = {
   Alimentos: 0.02,
 };
 
+const IMPUESTOS_CATEGORIA = {
+  "Bebidas alcohólicas": 0.07,
+};
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
   }
 
-  calcularImpuesto(precioNeto, estado) {
-    const porcentajeImpuesto = this.obtenerPorcentajeImpuesto(estado);
+  calcularImpuesto(precioNeto, estado, categoria = "Varios") {
+    const porcentajeImpuesto = this.obtenerPorcentajeImpuesto(
+      estado,
+      categoria
+    );
 
     if (porcentajeImpuesto === undefined) {
       return undefined;
@@ -63,14 +70,16 @@ class Totalizador {
     return (descuento.tasa + descuentoCategoria) * 100;
   }
 
-  obtenerPorcentajeImpuesto(estado) {
+  obtenerPorcentajeImpuesto(estado, categoria = "Varios") {
     const tasaImpuesto = IMPUESTOS[estado];
 
     if (tasaImpuesto === undefined) {
       return undefined;
     }
 
-    return tasaImpuesto * 100;
+    const impuestoCategoria = IMPUESTOS_CATEGORIA[categoria] || 0;
+
+    return tasaImpuesto * 100 + impuestoCategoria * 100;
   }
 
   calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {

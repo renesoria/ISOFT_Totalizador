@@ -91,11 +91,15 @@ form.addEventListener("submit", (event) => {
   const precioConDescuento = precioNeto - descuento;
 
   const porcentajeImpuesto =
-    totalizador.obtenerPorcentajeImpuesto(codigoEstado);
+    totalizador.obtenerPorcentajeImpuesto(
+      codigoEstado,
+      categoriaProducto
+    );
 
   const impuesto = totalizador.calcularImpuesto(
     precioConDescuento,
-    codigoEstado
+    codigoEstado,
+    categoriaProducto
   );
 
   const precioTotal = totalizador.calcularPrecioTotal(
