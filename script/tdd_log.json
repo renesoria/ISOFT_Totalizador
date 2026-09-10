@@ -174,9 +174,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0c1e113ab888c5980426d3433440d77e48a0df7b",
     "commitName": "feat: calcular impuesto para UT",
     "commitTimestamp": 1789012118795,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: organizar tasas de impuestos por estado",
+    "commitTimestamp": 1789012256713,
+    "testId": 6
   }
 ]

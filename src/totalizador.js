@@ -1,24 +1,24 @@
+const IMPUESTOS = {
+  CA: 0.0825,
+  AL: 0.04,
+  NV: 0.08,
+  UT: 0.0665,
+};
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
   }
 
   calcularImpuesto(precioNeto, estado) {
-  if (estado === "CA") {
-    return precioNeto * 0.0825;
-  }
+    const tasaImpuesto = IMPUESTOS[estado];
 
-  if (estado === "AL") {
-    return precioNeto * 0.04;
-  }
+    if (tasaImpuesto === undefined) {
+      return undefined;
+    }
 
-  if (estado === "NV") {
-    return precioNeto * 0.08;
+    return precioNeto * tasaImpuesto;
   }
-  if (estado === "UT") {
-  return precioNeto * 0.0665;
-}
-}
 
   calcularPrecioTotal(precioNeto, impuesto) {
     return precioNeto + impuesto;
