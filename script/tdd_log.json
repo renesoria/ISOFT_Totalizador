@@ -330,9 +330,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8de6be6f8a0552f4e30dc1c7cd83859213002dd4",
     "commitName": "fix: redondear montos mostrados en la interfaz",
     "commitTimestamp": 1789013830312,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789013883009,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789013914544,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 10 por ciento",
+    "commitTimestamp": 1789013927869,
+    "testId": 12
   }
 ]
