@@ -26,6 +26,7 @@ const CATEGORIAS = [
 
 const DESCUENTOS_CATEGORIA = {
   Alimentos: 0.02,
+  "Material de escritorio": 0.015,
 };
 
 const IMPUESTOS_CATEGORIA = {

@@ -140,4 +140,11 @@ it("deberia aplicar 7% de impuesto adicional para Bebidas alcohólicas", () => {
     totalizador.calcularImpuesto(100, "CA", "Bebidas alcohólicas")
   ).toBeCloseTo(15.25);
 });
+it("deberia aplicar 1.5% de descuento adicional para Material de escritorio", () => {
+  let totalizador = new Totalizador();
+
+  expect(
+    totalizador.calcularDescuento(1000, "Material de escritorio")
+  ).toBeCloseTo(45);
+});
 });
