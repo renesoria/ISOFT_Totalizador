@@ -788,9 +788,39 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c016be8cf48037c1e0e664c5ad625ba2e0af417b",
     "commitName": "feat: aplicar ajustes para electronicos",
     "commitTimestamp": 1789019553397,
     "testId": 26
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789019606796,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789019633829,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789019683970,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto para vestimenta",
+    "commitTimestamp": 1789019724463,
+    "testId": 27
   }
 ]

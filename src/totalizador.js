@@ -34,6 +34,7 @@ const IMPUESTOS_CATEGORIA = {
   "Bebidas alcohólicas": 0.07,
   Muebles: 0.03,
   "Electrónicos": 0.04,
+  Vestimenta: 0.02,
 };
 
 class Totalizador {

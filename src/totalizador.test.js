@@ -166,4 +166,11 @@ it("deberia aplicar 4% de impuesto adicional para Electrónicos", () => {
     12.25
   );
 });
+it("deberia aplicar 2% de impuesto adicional para Vestimenta", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularImpuesto(100, "CA", "Vestimenta")).toBeCloseTo(
+    10.25
+  );
+});
 });
