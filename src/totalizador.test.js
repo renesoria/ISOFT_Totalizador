@@ -59,4 +59,9 @@ it("deberia aplicar descuento de 5% para precio neto de 3000", () => {
 
   expect(totalizador.calcularDescuento(3000)).toEqual(150);
 });
+it("deberia aplicar descuento de 7% para precio neto de 7000", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(7000)).toBeCloseTo(490);
+});
 });

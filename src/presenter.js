@@ -20,18 +20,24 @@ form.addEventListener("submit", (event) => {
     precioItem
   );
 
+  const descuento = totalizador.calcularDescuento(precioNeto);
+
+  const precioConDescuento = precioNeto - descuento;
+
   const impuesto = totalizador.calcularImpuesto(
-    precioNeto,
+    precioConDescuento,
     codigoEstado
   );
 
   const precioTotal = totalizador.calcularPrecioTotal(
     precioNeto,
-    impuesto
+    impuesto,
+    descuento
   );
 
   div.innerHTML =
     "<p>Precio neto: $" + precioNeto + "</p>" +
+    "<p>Descuento: $" + descuento + "</p>" +
     "<p>Impuesto para " + codigoEstado + ": $" + impuesto + "</p>" +
     "<p>Precio total: $" + precioTotal + "</p>";
 });

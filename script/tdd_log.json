@@ -286,9 +286,47 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ca2f2f6f37e959517fca4cc7d06dabea60e977a8",
     "commitName": "feat: aplicar descuento de 5 por ciento",
     "commitTimestamp": 1789013328845,
     "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789013425984,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789013470534,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789013546618,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789013597027,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 7 por ciento",
+    "commitTimestamp": 1789013642115,
+    "testId": 10
   }
 ]

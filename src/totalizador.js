@@ -6,6 +6,12 @@ const IMPUESTOS = {
   TX: 0.0625,
 };
 
+const DESCUENTOS = [
+  { minimo: 7000, tasa: 0.07 },
+  { minimo: 3000, tasa: 0.05 },
+  { minimo: 1000, tasa: 0.03 },
+];
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
@@ -20,20 +26,22 @@ class Totalizador {
 
     return precioNeto * tasaImpuesto;
   }
-    calcularDescuento(precioNeto) {
-    if (precioNeto >= 3000) {
-        return precioNeto * 0.05;
+
+  calcularDescuento(precioNeto) {
+    const descuento = DESCUENTOS.find(
+      (descuento) => precioNeto >= descuento.minimo
+    );
+
+    if (descuento === undefined) {
+      return 0;
     }
 
-    if (precioNeto >= 1000) {
-        return precioNeto * 0.03;
-    }
+    return precioNeto * descuento.tasa;
+  }
 
-    return 0;
-    }
-calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
-  return precioNeto + impuesto - descuento;
-}
+  calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
+    return precioNeto + impuesto - descuento;
+  }
 }
 
 export default Totalizador;
