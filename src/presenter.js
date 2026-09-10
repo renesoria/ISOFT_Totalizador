@@ -6,6 +6,7 @@ const estado = document.querySelector("#estado");
 const form = document.querySelector("#totalizar-form");
 const div = document.querySelector("#resultado-div");
 const cancelarButton = document.querySelector("#cancelar-button");
+const confirmarButton = document.querySelector("#confirmar-button");
 
 const totalizador = new Totalizador();
 
@@ -23,6 +24,7 @@ estadosDisponibles.forEach((codigoEstado) => {
 function formatearMonto(valor) {
   return Number(valor.toFixed(2));
 }
+
 cancelarButton.addEventListener("click", () => {
   const estadoCompra = totalizador.cancelarCompra();
 
@@ -31,20 +33,31 @@ cancelarButton.addEventListener("click", () => {
     div.innerHTML = "<p>Compra cancelada</p>";
   }
 });
+
+confirmarButton.addEventListener("click", () => {
+  const estadoCompra = totalizador.confirmarCompra();
+
+  if (estadoCompra === "confirmada") {
+    div.innerHTML += "<p>Compra confirmada</p>";
+  }
+});
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cantidadItems = Number(cantidad.value);
   const precioItem = Number(precio.value);
   const codigoEstado = estado.value;
+
   if (!totalizador.validarCantidad(cantidadItems)) {
-  div.innerHTML = "<p>Error: cantidad invalida</p>";
-  return;
-}
-if (!totalizador.validarPrecio(precioItem)) {
-  div.innerHTML = "<p>Error: precio invalido</p>";
-  return;
-}
+    div.innerHTML = "<p>Error: cantidad invalida</p>";
+    return;
+  }
+
+  if (!totalizador.validarPrecio(precioItem)) {
+    div.innerHTML = "<p>Error: precio invalido</p>";
+    return;
+  }
 
   const precioNeto = totalizador.calcularPrecioNeto(
     cantidadItems,

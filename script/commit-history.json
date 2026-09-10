@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e48bc465f6e04fd539ab0d0e60abb24dcce72608",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:52:46.000Z",
       "message": "feat: cancelar compra",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/e48bc465f6e04fd539ab0d0e60abb24dcce72608"
     },
     "stats": {
       "total": 23,
@@ -376,6 +376,25 @@
     },
     "coverage": 91.67,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T04:56:19.000Z",
+      "message": "feat: confirmar compra",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 30,
+      "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 92,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

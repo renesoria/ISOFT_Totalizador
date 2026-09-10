@@ -72,6 +72,9 @@ class Totalizador {
     cancelarCompra() {
   return "cancelada";
     }
+    confirmarCompra() {
+  return "confirmada";
+    }
 }
 
 export default Totalizador;

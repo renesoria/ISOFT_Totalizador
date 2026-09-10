@@ -546,9 +546,39 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e48bc465f6e04fd539ab0d0e60abb24dcce72608",
     "commitName": "feat: cancelar compra",
     "commitTimestamp": 1789015967939,
     "testId": 19
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1789016024276,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1789016040123,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1789016173005,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: confirmar compra",
+    "commitTimestamp": 1789016181142,
+    "testId": 20
   }
 ]

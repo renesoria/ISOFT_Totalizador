@@ -110,4 +110,9 @@ it("deberia cancelar la compra", () => {
 
   expect(totalizador.cancelarCompra()).toEqual("cancelada");
 });
+it("deberia confirmar la compra", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.confirmarCompra()).toEqual("confirmada");
+});
 });
