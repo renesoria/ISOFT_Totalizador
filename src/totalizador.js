@@ -167,7 +167,13 @@ class Totalizador {
     return cantidad > 0;
     }
     validarPrecio(precio) {
-  return precio >= 0;
+  if (precio === "" || precio === null || precio === undefined) {
+    return false;
+  }
+
+  const precioNumerico = Number(precio);
+
+  return Number.isFinite(precioNumerico) && precioNumerico >= 0;
     }
     validarPeso(peso) {
   if (peso === "" || peso === null || peso === undefined) {

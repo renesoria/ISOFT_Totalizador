@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c50228333397cc745dc2d305bb5d6581684649d4",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:42:40.000Z",
       "message": "feat: validar peso volumetrico",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/c50228333397cc745dc2d305bb5d6581684649d4"
     },
     "stats": {
       "total": 22,
@@ -794,6 +794,25 @@
     },
     "coverage": 91.38,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T07:05:14.000Z",
+      "message": "feat: evitar calculo con precio faltante",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 15,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 91.8,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

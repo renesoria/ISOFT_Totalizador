@@ -265,4 +265,9 @@ it("deberia indicar que el peso vacio es invalido", () => {
 
   expect(totalizador.validarPeso("")).toEqual(false);
 });
+it("deberia indicar que el precio vacio es invalido", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.validarPrecio("")).toEqual(false);
+});
 });

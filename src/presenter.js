@@ -71,7 +71,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cantidadItems = Number(cantidad.value);
-  const precioItem = Number(precio.value);
+  const precioIngresado = precio.value;
   const codigoEstado = estado.value;
   const categoriaProducto = categoria.value;
   const tipoCliente = cliente.value;
@@ -81,7 +81,7 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  if (!totalizador.validarPrecio(precioItem)) {
+  if (!totalizador.validarPrecio(precioIngresado)) {
     div.innerHTML = "<p>Error: precio invalido</p>";
     return;
   }
@@ -91,6 +91,7 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
+  const precioItem = Number(precioIngresado);
   const pesoVolumetrico = Number(peso.value);
 
   const precioNeto = totalizador.calcularPrecioNeto(

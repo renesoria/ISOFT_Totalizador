@@ -1262,9 +1262,47 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c50228333397cc745dc2d305bb5d6581684649d4",
     "commitName": "feat: validar peso volumetrico",
     "commitTimestamp": 1789022562422,
     "testId": 41
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789023605539,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1789023741373,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789023788267,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789023895898,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: evitar calculo con precio faltante",
+    "commitTimestamp": 1789023916235,
+    "testId": 42
   }
 ]
