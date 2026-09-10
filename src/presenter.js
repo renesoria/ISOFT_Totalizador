@@ -104,6 +104,13 @@ form.addEventListener("submit", (event) => {
     );
 
   const precioConDescuento = precioNeto - descuento;
+  const descuentoFijo = totalizador.calcularDescuentoFijo(
+    precioConDescuento,
+    categoriaProducto,
+    tipoCliente
+  );
+  const descuentoTotal = descuento + descuentoFijo;
+  const precioConTodosLosDescuentos = precioNeto - descuentoTotal;
 
   const porcentajeImpuesto =
     totalizador.obtenerPorcentajeImpuesto(
@@ -112,7 +119,7 @@ form.addEventListener("submit", (event) => {
     );
 
   const impuesto = totalizador.calcularImpuesto(
-    precioConDescuento,
+    precioConTodosLosDescuentos,
     codigoEstado,
     categoriaProducto
   );
@@ -128,7 +135,7 @@ form.addEventListener("submit", (event) => {
   const precioTotal = totalizador.calcularPrecioTotal(
     precioNeto,
     impuesto,
-    descuento,
+    descuentoTotal,
     envioFinal
   );
 
@@ -138,6 +145,7 @@ form.addEventListener("submit", (event) => {
     "<p>Precio neto: $" + formatearMonto(precioNeto) + "</p>" +
     "<p>Descuento (" + porcentajeDescuento + "%): $" +
     formatearMonto(descuento) + "</p>" +
+    "<p>Descuento fijo: $" + formatearMonto(descuentoFijo) + "</p>" +
     "<p>Impuesto para " + codigoEstado + " (" +
     porcentajeImpuesto + "%): $" +
     formatearMonto(impuesto) + "</p>" +

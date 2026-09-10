@@ -85,7 +85,7 @@ class Totalizador {
       return descuentoCategoria * 100;
     }
 
-    return (descuento.tasa + descuentoCategoria) * 100;
+    return descuento.tasa * 100 + descuentoCategoria * 100;
   }
 
   obtenerPorcentajeImpuesto(estado, categoria = "Varios") {
@@ -143,6 +143,17 @@ class Totalizador {
   const tasaDescuento = DESCUENTOS_ENVIO[tipoCliente] || 0;
 
   return costoEnvio * tasaDescuento;
+    }
+    calcularDescuentoFijo(precioNeto, categoria, tipoCliente) {
+  if (
+    tipoCliente === "Recurrente" &&
+    categoria === "Alimentos" &&
+    precioNeto > 3000
+  ) {
+    return 100;
+  }
+
+  return 0;
     }
     validarCantidad(cantidad) {
     return cantidad > 0;

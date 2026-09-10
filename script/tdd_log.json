@@ -1164,9 +1164,47 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3775c4a5f480b2d6c0d754887b4bc3d3962ab873",
     "commitName": "feat: aplicar descuento de envio para especial",
     "commitTimestamp": 1789021952044,
     "testId": 38
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1789022009552,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789022039394,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789022119962,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789022159610,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo a recurrente con alimentos",
+    "commitTimestamp": 1789022194709,
+    "testId": 39
   }
 ]

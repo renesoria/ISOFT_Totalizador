@@ -246,4 +246,11 @@ it("deberia aplicar 1.5% de descuento al envio para Especial", () => {
     1.5
   );
 });
+it("deberia aplicar 100 de descuento fijo a Recurrente con Alimentos sobre 3000", () => {
+  let totalizador = new Totalizador();
+
+  expect(
+    totalizador.calcularDescuentoFijo(3001, "Alimentos", "Recurrente")
+  ).toEqual(100);
+});
 });
