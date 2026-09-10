@@ -54,4 +54,9 @@ it("deberia calcular el precio total incluyendo el descuento", () => {
     totalizador.calcularPrecioTotal(1000, 80.025, 30)
   ).toBeCloseTo(1050.025);
 });
+it("deberia aplicar descuento de 5% para precio neto de 3000", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(3000)).toEqual(150);
+});
 });
