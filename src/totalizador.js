@@ -87,8 +87,8 @@ class Totalizador {
     return tasaImpuesto * 100 + impuestoCategoria * 100;
   }
 
-  calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
-    return precioNeto + impuesto - descuento;
+  calcularPrecioTotal(precioNeto, impuesto, descuento = 0, envio = 0) {
+    return precioNeto + impuesto - descuento + envio;
   }
   obtenerEstadosDisponibles() {
   return Object.keys(IMPUESTOS);
@@ -111,6 +111,10 @@ class Totalizador {
 
   if (pesoVolumetrico <= 80) {
     return 6 * cantidad;
+  }
+
+  if (pesoVolumetrico <= 100) {
+    return 6.5 * cantidad;
   }
 
   return undefined;

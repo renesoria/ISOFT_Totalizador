@@ -938,9 +938,55 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "46c9a8c3d1ff255332486ff6fedb12ab6aed7c45",
     "commitName": "feat: calcular envio para peso de 41 a 80",
     "commitTimestamp": 1789020518338,
     "testId": 31
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789020575676,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789020607588,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1789020683821,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1789020715804,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1789020760665,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: completar envio hasta 100",
+    "commitTimestamp": 1789020798843,
+    "testId": 32
   }
 ]

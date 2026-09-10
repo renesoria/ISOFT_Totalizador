@@ -193,4 +193,16 @@ it("deberia calcular envio de 6 para peso mayor a 40 y hasta 80", () => {
 
   expect(totalizador.calcularCostoEnvio(41, 1)).toBeCloseTo(6);
 });
+it("deberia calcular envio de 6.5 para peso mayor a 80 y hasta 100", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(81, 1)).toBeCloseTo(6.5);
+});
+it("deberia sumar el costo de envio al precio total", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularPrecioTotal(100, 8.25, 0, 6.5)).toBeCloseTo(
+    114.75
+  );
+});
 });
