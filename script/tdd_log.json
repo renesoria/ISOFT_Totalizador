@@ -152,9 +152,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84947ef9f26052a103a4ea1088f40f870c81431c",
     "commitName": "feat: calcular impuesto para NV",
     "commitTimestamp": 1789012015653,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1789012087080,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1789012106320,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para UT",
+    "commitTimestamp": 1789012118795,
+    "testId": 5
   }
 ]

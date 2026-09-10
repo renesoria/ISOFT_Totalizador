@@ -15,6 +15,9 @@ class Totalizador {
   if (estado === "NV") {
     return precioNeto * 0.08;
   }
+  if (estado === "UT") {
+  return precioNeto * 0.0665;
+}
 }
 
   calcularPrecioTotal(precioNeto, impuesto) {
