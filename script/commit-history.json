@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9136a17a9182a158f8acec490f2def9b8162bec3",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T05:55:22.000Z",
       "message": "feat: aplicar impuesto para vestimenta",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/9136a17a9182a158f8acec490f2def9b8162bec3"
     },
     "stats": {
       "total": 8,
@@ -528,6 +528,25 @@
     },
     "coverage": 93.55,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T05:59:23.000Z",
+      "message": "feat: calcular envio gratuito por peso",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 25,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 91.18,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

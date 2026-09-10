@@ -173,4 +173,9 @@ it("deberia aplicar 2% de impuesto adicional para Vestimenta", () => {
     10.25
   );
 });
+it("deberia calcular envio gratis para peso volumetrico de hasta 10", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(10, 3)).toEqual(0);
+});
 });

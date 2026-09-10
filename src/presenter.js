@@ -4,6 +4,7 @@ const cantidad = document.querySelector("#cantidad");
 const precio = document.querySelector("#precio");
 const estado = document.querySelector("#estado");
 const categoria = document.querySelector("#categoria");
+const peso = document.querySelector("#peso");
 const form = document.querySelector("#totalizar-form");
 const div = document.querySelector("#resultado-div");
 const cancelarButton = document.querySelector("#cancelar-button");
@@ -61,6 +62,7 @@ form.addEventListener("submit", (event) => {
   const precioItem = Number(precio.value);
   const codigoEstado = estado.value;
   const categoriaProducto = categoria.value;
+  const pesoVolumetrico = Number(peso.value);
 
   if (!totalizador.validarCantidad(cantidadItems)) {
     div.innerHTML = "<p>Error: cantidad invalida</p>";
@@ -102,10 +104,14 @@ form.addEventListener("submit", (event) => {
     categoriaProducto
   );
 
+  const costoEnvio =
+    totalizador.calcularCostoEnvio(pesoVolumetrico, cantidadItems) ?? 0;
+
   const precioTotal = totalizador.calcularPrecioTotal(
     precioNeto,
     impuesto,
-    descuento
+    descuento,
+    costoEnvio
   );
 
   div.innerHTML =
@@ -116,5 +122,6 @@ form.addEventListener("submit", (event) => {
     "<p>Impuesto para " + codigoEstado + " (" +
     porcentajeImpuesto + "%): $" +
     formatearMonto(impuesto) + "</p>" +
+    "<p>Envío: $" + formatearMonto(costoEnvio) + "</p>" +
     "<p>Precio total: $" + formatearMonto(precioTotal) + "</p>";
 });

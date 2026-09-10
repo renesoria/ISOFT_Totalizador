@@ -96,6 +96,13 @@ class Totalizador {
     obtenerCategoriasDisponibles() {
   return CATEGORIAS;
     }
+    calcularCostoEnvio(pesoVolumetrico, cantidad) {
+  if (pesoVolumetrico <= 10) {
+    return 0;
+  }
+
+  return undefined;
+    }
     validarCantidad(cantidad) {
     return cantidad > 0;
     }

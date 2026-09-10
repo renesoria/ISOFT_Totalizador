@@ -818,9 +818,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9136a17a9182a158f8acec490f2def9b8162bec3",
     "commitName": "feat: aplicar impuesto para vestimenta",
     "commitTimestamp": 1789019724463,
     "testId": 27
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789019799087,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789019829712,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789019928169,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio gratuito por peso",
+    "commitTimestamp": 1789019965609,
+    "testId": 28
   }
 ]
