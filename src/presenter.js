@@ -8,6 +8,17 @@ const div = document.querySelector("#resultado-div");
 
 const totalizador = new Totalizador();
 
+const estadosDisponibles = totalizador.obtenerEstadosDisponibles();
+
+estadosDisponibles.forEach((codigoEstado) => {
+  const opcion = document.createElement("option");
+
+  opcion.value = codigoEstado;
+  opcion.textContent = codigoEstado;
+
+  estado.appendChild(opcion);
+});
+
 function formatearMonto(valor) {
   return Number(valor.toFixed(2));
 }
@@ -17,7 +28,7 @@ form.addEventListener("submit", (event) => {
 
   const cantidadItems = Number(cantidad.value);
   const precioItem = Number(precio.value);
-  const codigoEstado = estado.value.toUpperCase();
+  const codigoEstado = estado.value;
 
   const precioNeto = totalizador.calcularPrecioNeto(
     cantidadItems,

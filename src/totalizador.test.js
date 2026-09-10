@@ -84,4 +84,15 @@ it("deberia obtener el porcentaje de impuesto para TX", () => {
 
   expect(totalizador.obtenerPorcentajeImpuesto("TX")).toEqual(6.25);
 });
+it("deberia obtener los estados disponibles", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.obtenerEstadosDisponibles()).toEqual([
+    "CA",
+    "AL",
+    "NV",
+    "UT",
+    "TX",
+  ]);
+});
 });

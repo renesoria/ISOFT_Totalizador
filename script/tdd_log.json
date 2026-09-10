@@ -434,9 +434,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a16b29081896b640ba54d88eb77dd1c2b2290db8",
     "commitName": "feat: mostrar porcentaje de impuesto aplicado",
     "commitTimestamp": 1789015083177,
     "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789015189425,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789015221197,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789015377434,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: seleccionar estado de una lista",
+    "commitTimestamp": 1789015384186,
+    "testId": 16
   }
 ]

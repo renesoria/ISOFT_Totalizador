@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a16b29081896b640ba54d88eb77dd1c2b2290db8",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:38:00.000Z",
       "message": "feat: mostrar porcentaje de impuesto aplicado",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/a16b29081896b640ba54d88eb77dd1c2b2290db8"
     },
     "stats": {
       "total": 34,
@@ -300,6 +300,25 @@
     },
     "coverage": 90,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T04:43:02.000Z",
+      "message": "feat: seleccionar estado de una lista",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 28,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 90.48,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

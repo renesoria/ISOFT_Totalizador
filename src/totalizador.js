@@ -60,6 +60,9 @@ class Totalizador {
   calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
     return precioNeto + impuesto - descuento;
   }
+  obtenerEstadosDisponibles() {
+  return Object.keys(IMPUESTOS);
+    }
 }
 
 export default Totalizador;
