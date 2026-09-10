@@ -95,4 +95,9 @@ it("deberia obtener los estados disponibles", () => {
     "TX",
   ]);
 });
+it("deberia indicar que la cantidad es invalida cuando es negativa", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.validarCantidad(-5)).toEqual(false);
+});
 });

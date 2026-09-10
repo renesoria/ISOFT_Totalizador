@@ -464,9 +464,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f95c91c4b317ffa4c9a1a69cd0ad2cc83c10bc87",
     "commitName": "feat: seleccionar estado de una lista",
     "commitTimestamp": 1789015384186,
     "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789015479058,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789015502024,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789015541667,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error para cantidad invalida",
+    "commitTimestamp": 1789015552451,
+    "testId": 17
   }
 ]

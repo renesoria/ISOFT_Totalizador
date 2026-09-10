@@ -29,6 +29,10 @@ form.addEventListener("submit", (event) => {
   const cantidadItems = Number(cantidad.value);
   const precioItem = Number(precio.value);
   const codigoEstado = estado.value;
+  if (!totalizador.validarCantidad(cantidadItems)) {
+  div.innerHTML = "<p>Error: cantidad invalida</p>";
+  return;
+}
 
   const precioNeto = totalizador.calcularPrecioNeto(
     cantidadItems,

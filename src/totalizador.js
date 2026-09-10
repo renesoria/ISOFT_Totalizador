@@ -63,6 +63,9 @@ class Totalizador {
   obtenerEstadosDisponibles() {
   return Object.keys(IMPUESTOS);
     }
+    validarCantidad(cantidad) {
+    return cantidad > 0;
+    }
 }
 
 export default Totalizador;
