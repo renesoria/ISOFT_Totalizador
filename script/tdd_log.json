@@ -1104,9 +1104,39 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "19409f7ca43364c7482c2895470d3882be915a77",
     "commitName": "feat: aplicar descuento de envio para recurrente",
     "commitTimestamp": 1789021594387,
     "testId": 36
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1789021650664,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1789021680590,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1789021738779,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de envio para antiguo recurrente",
+    "commitTimestamp": 1789021778849,
+    "testId": 37
   }
 ]
