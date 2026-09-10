@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4a500e4acf96fb040e19c988fcfc8a52343876f9",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:29:36.000Z",
       "message": "feat: aplicar descuento de envio para antiguo recurrente",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/4a500e4acf96fb040e19c988fcfc8a52343876f9"
     },
     "stats": {
       "total": 8,
@@ -718,6 +718,25 @@
     },
     "coverage": 95.92,
     "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:32:30.000Z",
+      "message": "feat: aplicar descuento de envio para especial",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.92,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }

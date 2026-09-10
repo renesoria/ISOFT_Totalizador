@@ -239,4 +239,11 @@ it("deberia aplicar 1% de descuento al envio para Antiguo Recurrente", () => {
     totalizador.calcularDescuentoEnvio(100, "Antiguo Recurrente")
   ).toBeCloseTo(1);
 });
+it("deberia aplicar 1.5% de descuento al envio para Especial", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuentoEnvio(100, "Especial")).toBeCloseTo(
+    1.5
+  );
+});
 });

@@ -47,6 +47,7 @@ const IMPUESTOS_CATEGORIA = {
 const DESCUENTOS_ENVIO = {
   Recurrente: 0.005,
   "Antiguo Recurrente": 0.01,
+  Especial: 0.015,
 };
 
 class Totalizador {
