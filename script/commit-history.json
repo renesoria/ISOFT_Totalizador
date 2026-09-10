@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T03:17:38.000Z",
+      "message": "feat: mostrar precio neto de la compra",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 35,
+      "deletions": 17,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
