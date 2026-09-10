@@ -22,4 +22,9 @@ describe("Totalizador", () => {
 
     expect(totalizador.calcularImpuesto(60, "AL")).toBeCloseTo(2.4);
 });
+    it("deberia calcular el impuesto para NV", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularImpuesto(60, "NV")).toEqual(4.8);
+});
 });
