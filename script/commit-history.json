@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6091cfa20323d68ac6a9e0bb97c53485c4e0613b",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:02:17.000Z",
       "message": "feat: calcular envio para peso de 11 a 20",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/6091cfa20323d68ac6a9e0bb97c53485c4e0613b"
     },
     "stats": {
       "total": 9,
@@ -566,6 +566,25 @@
     },
     "coverage": 91.67,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:05:34.000Z",
+      "message": "feat: calcular envio para peso de 21 a 40",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.11,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

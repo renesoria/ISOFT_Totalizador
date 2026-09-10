@@ -183,4 +183,9 @@ it("deberia calcular envio de 3.5 para peso mayor a 10 y hasta 20", () => {
 
   expect(totalizador.calcularCostoEnvio(11, 1)).toBeCloseTo(3.5);
 });
+it("deberia calcular envio de 5 para peso mayor a 20 y hasta 40", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(21, 1)).toBeCloseTo(5);
+});
 });
