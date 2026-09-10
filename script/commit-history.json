@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c5f863241db1c55349937d2dda1014fccf28a7f4",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:21:45.000Z",
       "message": "feat: aplicar descuento de 15 por ciento",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/c5f863241db1c55349937d2dda1014fccf28a7f4"
     },
     "stats": {
       "total": 6,
@@ -262,6 +262,25 @@
     },
     "coverage": 92.86,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T04:27:36.000Z",
+      "message": "feat: mostrar porcentaje de descuento aplicado",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.75,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

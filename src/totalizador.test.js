@@ -74,4 +74,9 @@ it("deberia aplicar descuento de 15% para precio neto de 30000", () => {
 
   expect(totalizador.calcularDescuento(30000)).toBeCloseTo(4500);
 });
+it("deberia obtener el porcentaje de descuento aplicado", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.obtenerPorcentajeDescuento(30000)).toEqual(15);
+});
 });

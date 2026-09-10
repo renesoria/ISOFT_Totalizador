@@ -30,6 +30,12 @@ class Totalizador {
   }
 
   calcularDescuento(precioNeto) {
+    const porcentaje = this.obtenerPorcentajeDescuento(precioNeto);
+
+    return precioNeto * (porcentaje / 100);
+  }
+
+  obtenerPorcentajeDescuento(precioNeto) {
     const descuento = DESCUENTOS.find(
       (descuento) => precioNeto >= descuento.minimo
     );
@@ -38,7 +44,7 @@ class Totalizador {
       return 0;
     }
 
-    return precioNeto * descuento.tasa;
+    return descuento.tasa * 100;
   }
 
   calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {
