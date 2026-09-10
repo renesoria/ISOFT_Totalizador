@@ -121,7 +121,7 @@ class Totalizador {
     return 8 * cantidad;
   }
 
-  return undefined;
+  return 9 * cantidad;
     }
     validarCantidad(cantidad) {
     return cantidad > 0;

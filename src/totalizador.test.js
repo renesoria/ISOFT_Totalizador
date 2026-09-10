@@ -210,4 +210,9 @@ it("deberia calcular envio de 8 para peso mayor a 100 y hasta 200", () => {
 
   expect(totalizador.calcularCostoEnvio(101, 1)).toBeCloseTo(8);
 });
+it("deberia calcular envio de 9 para peso mayor a 200", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(201, 1)).toBeCloseTo(9);
+});
 });
