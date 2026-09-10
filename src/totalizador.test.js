@@ -79,4 +79,9 @@ it("deberia obtener el porcentaje de descuento aplicado", () => {
 
   expect(totalizador.obtenerPorcentajeDescuento(30000)).toEqual(15);
 });
+it("deberia obtener el porcentaje de impuesto para TX", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.obtenerPorcentajeImpuesto("TX")).toEqual(6.25);
+});
 });

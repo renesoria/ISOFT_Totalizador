@@ -20,13 +20,13 @@ class Totalizador {
   }
 
   calcularImpuesto(precioNeto, estado) {
-    const tasaImpuesto = IMPUESTOS[estado];
+    const porcentajeImpuesto = this.obtenerPorcentajeImpuesto(estado);
 
-    if (tasaImpuesto === undefined) {
+    if (porcentajeImpuesto === undefined) {
       return undefined;
     }
 
-    return precioNeto * tasaImpuesto;
+    return precioNeto * (porcentajeImpuesto / 100);
   }
 
   calcularDescuento(precioNeto) {
@@ -45,6 +45,16 @@ class Totalizador {
     }
 
     return descuento.tasa * 100;
+  }
+
+  obtenerPorcentajeImpuesto(estado) {
+    const tasaImpuesto = IMPUESTOS[estado];
+
+    if (tasaImpuesto === undefined) {
+      return undefined;
+    }
+
+    return tasaImpuesto * 100;
   }
 
   calcularPrecioTotal(precioNeto, impuesto, descuento = 0) {

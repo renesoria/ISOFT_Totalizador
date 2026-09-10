@@ -25,10 +25,14 @@ form.addEventListener("submit", (event) => {
   );
 
   const descuento = totalizador.calcularDescuento(precioNeto);
+
   const porcentajeDescuento =
-  totalizador.obtenerPorcentajeDescuento(precioNeto);
+    totalizador.obtenerPorcentajeDescuento(precioNeto);
 
   const precioConDescuento = precioNeto - descuento;
+
+  const porcentajeImpuesto =
+    totalizador.obtenerPorcentajeImpuesto(codigoEstado);
 
   const impuesto = totalizador.calcularImpuesto(
     precioConDescuento,
@@ -43,7 +47,10 @@ form.addEventListener("submit", (event) => {
 
   div.innerHTML =
     "<p>Precio neto: $" + formatearMonto(precioNeto) + "</p>" +
-    "<p>Descuento (" + porcentajeDescuento + "%): $" + formatearMonto(descuento) + "</p>" +
-    "<p>Impuesto para " + codigoEstado + ": $" + formatearMonto(impuesto) + "</p>" +
+    "<p>Descuento (" + porcentajeDescuento + "%): $" +
+    formatearMonto(descuento) + "</p>" +
+    "<p>Impuesto para " + codigoEstado + " (" +
+    porcentajeImpuesto + "%): $" +
+    formatearMonto(impuesto) + "</p>" +
     "<p>Precio total: $" + formatearMonto(precioTotal) + "</p>";
 });
