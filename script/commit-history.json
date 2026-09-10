@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3336b111d27ffa4b3fd167a4d88bc9791e3b3c25",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T03:50:55.000Z",
       "message": "fix: organizar tasas de impuestos por estado",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/3336b111d27ffa4b3fd167a4d88bc9791e3b3c25"
     },
     "stats": {
       "total": 24,
@@ -129,6 +129,25 @@
     },
     "coverage": 87.5,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T03:52:21.000Z",
+      "message": "feat: calcular impuesto para TX",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.5,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

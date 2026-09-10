@@ -3,6 +3,7 @@ const IMPUESTOS = {
   AL: 0.04,
   NV: 0.08,
   UT: 0.0665,
+  TX: 0.0625,
 };
 
 class Totalizador {

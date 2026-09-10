@@ -180,9 +180,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3336b111d27ffa4b3fd167a4d88bc9791e3b3c25",
     "commitName": "fix: organizar tasas de impuestos por estado",
     "commitTimestamp": 1789012256713,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789012280929,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789012326878,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para TX",
+    "commitTimestamp": 1789012343125,
+    "testId": 7
   }
 ]

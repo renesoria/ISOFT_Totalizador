@@ -32,4 +32,9 @@ describe("Totalizador", () => {
 
   expect(totalizador.calcularImpuesto(60, "UT")).toBeCloseTo(3.99);
 }); 
+it("deberia calcular el impuesto para TX", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularImpuesto(60, "TX")).toBeCloseTo(3.75);
+});
 });
