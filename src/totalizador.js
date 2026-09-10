@@ -24,6 +24,13 @@ const CATEGORIAS = [
   "Vestimenta",
 ];
 
+const TIPOS_CLIENTE = [
+  "Normal",
+  "Recurrente",
+  "Antiguo Recurrente",
+  "Especial",
+];
+
 const DESCUENTOS_CATEGORIA = {
   Alimentos: 0.02,
   "Material de escritorio": 0.015,
@@ -95,6 +102,9 @@ class Totalizador {
     }
     obtenerCategoriasDisponibles() {
   return CATEGORIAS;
+    }
+    obtenerTiposClienteDisponibles() {
+  return TIPOS_CLIENTE;
     }
     calcularCostoEnvio(pesoVolumetrico, cantidad) {
   if (pesoVolumetrico <= 10) {

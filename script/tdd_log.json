@@ -1044,9 +1044,39 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a213c60e65b453052a27b654e8b63ac9e967e08",
     "commitName": "feat: calcular envio para peso mayor a 200",
     "commitTimestamp": 1789021165526,
     "testId": 34
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1789021226591,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1789021256722,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1789021337852,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar selector de tipo de cliente",
+    "commitTimestamp": 1789021377422,
+    "testId": 35
   }
 ]

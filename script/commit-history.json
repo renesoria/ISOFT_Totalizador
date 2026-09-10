@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a213c60e65b453052a27b654e8b63ac9e967e08",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:19:23.000Z",
       "message": "feat: calcular envio para peso mayor a 200",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/9a213c60e65b453052a27b654e8b63ac9e967e08"
     },
     "stats": {
       "total": 7,
@@ -661,6 +661,25 @@
     },
     "coverage": 95.45,
     "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:22:55.000Z",
+      "message": "feat: agregar selector de tipo de cliente",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.65,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

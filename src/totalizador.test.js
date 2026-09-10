@@ -215,4 +215,14 @@ it("deberia calcular envio de 9 para peso mayor a 200", () => {
 
   expect(totalizador.calcularCostoEnvio(201, 1)).toBeCloseTo(9);
 });
+it("deberia obtener tipos de cliente con Normal como opcion inicial", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.obtenerTiposClienteDisponibles()).toEqual([
+    "Normal",
+    "Recurrente",
+    "Antiguo Recurrente",
+    "Especial",
+  ]);
+});
 });
