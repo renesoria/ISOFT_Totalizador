@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f8a27886d7945aee889b2c28e541d1bdf6f45c4",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:14:00.000Z",
       "message": "feat: aplicar descuento de 7 por ciento",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/9f8a27886d7945aee889b2c28e541d1bdf6f45c4"
     },
     "stats": {
       "total": 45,
       "additions": 32,
       "deletions": 13,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T04:17:08.000Z",
+      "message": "fix: redondear montos mostrados en la interfaz",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 8,
+      "deletions": 4,
       "date": "2026-09-10"
     },
     "coverage": 92.86,

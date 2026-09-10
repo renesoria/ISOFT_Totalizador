@@ -324,9 +324,15 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f8a27886d7945aee889b2c28e541d1bdf6f45c4",
     "commitName": "feat: aplicar descuento de 7 por ciento",
     "commitTimestamp": 1789013642115,
     "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: redondear montos mostrados en la interfaz",
+    "commitTimestamp": 1789013830312,
+    "testId": 11
   }
 ]

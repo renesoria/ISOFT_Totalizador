@@ -8,6 +8,10 @@ const div = document.querySelector("#resultado-div");
 
 const totalizador = new Totalizador();
 
+function formatearMonto(valor) {
+  return Number(valor.toFixed(2));
+}
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -36,8 +40,8 @@ form.addEventListener("submit", (event) => {
   );
 
   div.innerHTML =
-    "<p>Precio neto: $" + precioNeto + "</p>" +
-    "<p>Descuento: $" + descuento + "</p>" +
-    "<p>Impuesto para " + codigoEstado + ": $" + impuesto + "</p>" +
-    "<p>Precio total: $" + precioTotal + "</p>";
+    "<p>Precio neto: $" + formatearMonto(precioNeto) + "</p>" +
+    "<p>Descuento: $" + formatearMonto(descuento) + "</p>" +
+    "<p>Impuesto para " + codigoEstado + ": $" + formatearMonto(impuesto) + "</p>" +
+    "<p>Precio total: $" + formatearMonto(precioTotal) + "</p>";
 });
