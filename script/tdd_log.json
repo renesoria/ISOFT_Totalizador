@@ -352,9 +352,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5b5a8f506efc9a545798f0bb4da31efd7d26959",
     "commitName": "feat: aplicar descuento de 10 por ciento",
     "commitTimestamp": 1789013927869,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789014039669,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789014061234,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 15 por ciento",
+    "commitTimestamp": 1789014106509,
+    "testId": 13
   }
 ]

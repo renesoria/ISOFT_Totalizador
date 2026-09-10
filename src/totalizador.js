@@ -7,6 +7,7 @@ const IMPUESTOS = {
 };
 
 const DESCUENTOS = [
+  { minimo: 30000, tasa: 0.15 },
   { minimo: 10000, tasa: 0.10 },
   { minimo: 7000, tasa: 0.07 },
   { minimo: 3000, tasa: 0.05 },
