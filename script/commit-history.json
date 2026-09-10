@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab7c3e71a4a56ef7f1ec656c8cb0e0c0e70c8503",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:13:16.000Z",
       "message": "feat: completar envio hasta 100",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/ab7c3e71a4a56ef7f1ec656c8cb0e0c0e70c8503"
     },
     "stats": {
       "total": 20,
@@ -623,6 +623,25 @@
     },
     "coverage": 92.86,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:16:10.000Z",
+      "message": "feat: calcular envio para peso de 101 a 200",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.18,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }

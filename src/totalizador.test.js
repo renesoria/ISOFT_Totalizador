@@ -205,4 +205,9 @@ it("deberia sumar el costo de envio al precio total", () => {
     114.75
   );
 });
+it("deberia calcular envio de 8 para peso mayor a 100 y hasta 200", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(101, 1)).toBeCloseTo(8);
+});
 });
