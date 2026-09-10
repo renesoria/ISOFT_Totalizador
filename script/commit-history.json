@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cbaf7e1afa307200ebb26547516d9ab784712aa7",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:45:50.000Z",
       "message": "feat: mostrar error para cantidad invalida",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/cbaf7e1afa307200ebb26547516d9ab784712aa7"
     },
     "stats": {
       "total": 12,
@@ -338,6 +338,25 @@
     },
     "coverage": 90.91,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T04:48:46.000Z",
+      "message": "feat: mostrar error para precio invalido",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 91.3,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

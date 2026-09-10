@@ -66,6 +66,9 @@ class Totalizador {
     validarCantidad(cantidad) {
     return cantidad > 0;
     }
+    validarPrecio(precio) {
+  return precio >= 0;
+    }
 }
 
 export default Totalizador;

@@ -494,9 +494,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cbaf7e1afa307200ebb26547516d9ab784712aa7",
     "commitName": "feat: mostrar error para cantidad invalida",
     "commitTimestamp": 1789015552451,
     "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789015629620,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789015651641,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error para precio invalido",
+    "commitTimestamp": 1789015728576,
+    "testId": 18
   }
 ]

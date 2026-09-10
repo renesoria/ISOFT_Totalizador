@@ -33,6 +33,10 @@ form.addEventListener("submit", (event) => {
   div.innerHTML = "<p>Error: cantidad invalida</p>";
   return;
 }
+if (!totalizador.validarPrecio(precioItem)) {
+  div.innerHTML = "<p>Error: precio invalido</p>";
+  return;
+}
 
   const precioNeto = totalizador.calcularPrecioNeto(
     cantidadItems,

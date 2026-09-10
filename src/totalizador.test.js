@@ -100,4 +100,9 @@ it("deberia indicar que la cantidad es invalida cuando es negativa", () => {
 
   expect(totalizador.validarCantidad(-5)).toEqual(false);
 });
+it("deberia indicar que el precio es invalido cuando es negativo", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.validarPrecio(-3)).toEqual(false);
+});
 });
