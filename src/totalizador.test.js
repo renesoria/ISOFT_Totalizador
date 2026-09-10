@@ -178,4 +178,9 @@ it("deberia calcular envio gratis para peso volumetrico de hasta 10", () => {
 
   expect(totalizador.calcularCostoEnvio(10, 3)).toEqual(0);
 });
+it("deberia calcular envio de 3.5 para peso mayor a 10 y hasta 20", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularCostoEnvio(11, 1)).toBeCloseTo(3.5);
+});
 });

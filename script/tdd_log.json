@@ -848,9 +848,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4147c49ec76efb5e7d3fb2f5394c85fefbcc82a8",
     "commitName": "feat: calcular envio gratuito por peso",
     "commitTimestamp": 1789019965609,
     "testId": 28
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789020016867,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789020047624,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789020100575,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio para peso de 11 a 20",
+    "commitTimestamp": 1789020139362,
+    "testId": 29
   }
 ]

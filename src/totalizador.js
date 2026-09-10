@@ -101,6 +101,10 @@ class Totalizador {
     return 0;
   }
 
+  if (pesoVolumetrico <= 20) {
+    return 3.5 * cantidad;
+  }
+
   return undefined;
     }
     validarCantidad(cantidad) {
