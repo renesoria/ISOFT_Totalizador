@@ -3,6 +3,7 @@ import Totalizador from "./totalizador.js";
 const cantidad = document.querySelector("#cantidad");
 const precio = document.querySelector("#precio");
 const estado = document.querySelector("#estado");
+const categoria = document.querySelector("#categoria");
 const form = document.querySelector("#totalizar-form");
 const div = document.querySelector("#resultado-div");
 const cancelarButton = document.querySelector("#cancelar-button");
@@ -19,6 +20,17 @@ estadosDisponibles.forEach((codigoEstado) => {
   opcion.textContent = codigoEstado;
 
   estado.appendChild(opcion);
+});
+
+const categoriasDisponibles = totalizador.obtenerCategoriasDisponibles();
+
+categoriasDisponibles.forEach((categoriaProducto) => {
+  const opcion = document.createElement("option");
+
+  opcion.value = categoriaProducto;
+  opcion.textContent = categoriaProducto;
+
+  categoria.appendChild(opcion);
 });
 
 function formatearMonto(valor) {
@@ -48,6 +60,7 @@ form.addEventListener("submit", (event) => {
   const cantidadItems = Number(cantidad.value);
   const precioItem = Number(precio.value);
   const codigoEstado = estado.value;
+  const categoriaProducto = categoria.value;
 
   if (!totalizador.validarCantidad(cantidadItems)) {
     div.innerHTML = "<p>Error: cantidad invalida</p>";
@@ -86,6 +99,7 @@ form.addEventListener("submit", (event) => {
   );
 
   div.innerHTML =
+    "<p>Categoría: " + categoriaProducto + "</p>" +
     "<p>Precio neto: $" + formatearMonto(precioNeto) + "</p>" +
     "<p>Descuento (" + porcentajeDescuento + "%): $" +
     formatearMonto(descuento) + "</p>" +

@@ -576,9 +576,47 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ead5cb8ba474fa003318d3adeb8d5f933d900b90",
     "commitName": "feat: confirmar compra",
     "commitTimestamp": 1789016181142,
     "testId": 20
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789017985551,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789018024146,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789018139846,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789018181224,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar selector de categorias",
+    "commitTimestamp": 1789018253030,
+    "testId": 21
   }
 ]

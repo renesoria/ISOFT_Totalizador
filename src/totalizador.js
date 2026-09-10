@@ -14,6 +14,16 @@ const DESCUENTOS = [
   { minimo: 1000, tasa: 0.03 },
 ];
 
+const CATEGORIAS = [
+  "Varios",
+  "Alimentos",
+  "Bebidas alcohólicas",
+  "Material de escritorio",
+  "Muebles",
+  "Electrónicos",
+  "Vestimenta",
+];
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
@@ -62,6 +72,9 @@ class Totalizador {
   }
   obtenerEstadosDisponibles() {
   return Object.keys(IMPUESTOS);
+    }
+    obtenerCategoriasDisponibles() {
+  return CATEGORIAS;
     }
     validarCantidad(cantidad) {
     return cantidad > 0;

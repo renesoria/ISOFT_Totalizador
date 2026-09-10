@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ead5cb8ba474fa003318d3adeb8d5f933d900b90",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T04:56:19.000Z",
       "message": "feat: confirmar compra",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/ead5cb8ba474fa003318d3adeb8d5f933d900b90"
     },
     "stats": {
       "total": 38,
@@ -395,6 +395,25 @@
     },
     "coverage": 92,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T05:30:51.000Z",
+      "message": "feat: agregar selector de categorias",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 49,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.59,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

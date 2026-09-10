@@ -115,4 +115,17 @@ it("deberia confirmar la compra", () => {
 
   expect(totalizador.confirmarCompra()).toEqual("confirmada");
 });
+it("deberia obtener las categorias disponibles con Varios como opcion inicial", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.obtenerCategoriasDisponibles()).toEqual([
+    "Varios",
+    "Alimentos",
+    "Bebidas alcohólicas",
+    "Material de escritorio",
+    "Muebles",
+    "Electrónicos",
+    "Vestimenta",
+  ]);
+});
 });
