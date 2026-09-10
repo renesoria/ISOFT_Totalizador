@@ -105,4 +105,9 @@ it("deberia indicar que el precio es invalido cuando es negativo", () => {
 
   expect(totalizador.validarPrecio(-3)).toEqual(false);
 });
+it("deberia cancelar la compra", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.cancelarCompra()).toEqual("cancelada");
+});
 });

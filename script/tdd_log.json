@@ -516,9 +516,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0f098e193b35226e455815b15a7914a1776b33a2",
     "commitName": "feat: mostrar error para precio invalido",
     "commitTimestamp": 1789015728576,
     "testId": 18
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1789015830122,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015846974,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015961555,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cancelar compra",
+    "commitTimestamp": 1789015967939,
+    "testId": 19
   }
 ]

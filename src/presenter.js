@@ -5,6 +5,7 @@ const precio = document.querySelector("#precio");
 const estado = document.querySelector("#estado");
 const form = document.querySelector("#totalizar-form");
 const div = document.querySelector("#resultado-div");
+const cancelarButton = document.querySelector("#cancelar-button");
 
 const totalizador = new Totalizador();
 
@@ -22,7 +23,14 @@ estadosDisponibles.forEach((codigoEstado) => {
 function formatearMonto(valor) {
   return Number(valor.toFixed(2));
 }
+cancelarButton.addEventListener("click", () => {
+  const estadoCompra = totalizador.cancelarCompra();
 
+  if (estadoCompra === "cancelada") {
+    form.reset();
+    div.innerHTML = "<p>Compra cancelada</p>";
+  }
+});
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 

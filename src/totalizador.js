@@ -69,6 +69,9 @@ class Totalizador {
     validarPrecio(precio) {
   return precio >= 0;
     }
+    cancelarCompra() {
+  return "cancelada";
+    }
 }
 
 export default Totalizador;
