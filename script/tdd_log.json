@@ -70,9 +70,39 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d88cbf9e5756e6ebc73367f9c81d59f565b7bffc",
     "commitName": "feat: calcular impuesto para CA",
     "commitTimestamp": 1789011217708,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789011414423,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789011445841,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789011524490,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio total con impuesto",
+    "commitTimestamp": 1789011542655,
+    "testId": 2
   }
 ]

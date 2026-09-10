@@ -25,7 +25,13 @@ form.addEventListener("submit", (event) => {
     codigoEstado
   );
 
+  const precioTotal = totalizador.calcularPrecioTotal(
+    precioNeto,
+    impuesto
+  );
+
   div.innerHTML =
     "<p>Precio neto: $" + precioNeto + "</p>" +
-    "<p>Impuesto para " + codigoEstado + ": $" + impuesto + "</p>";
+    "<p>Impuesto para " + codigoEstado + ": $" + impuesto + "</p>" +
+    "<p>Precio total: $" + precioTotal + "</p>";
 });

@@ -8,6 +8,10 @@ class Totalizador {
       return precioNeto * 0.0825;
     }
   }
+
+  calcularPrecioTotal(precioNeto, impuesto) {
+    return precioNeto + impuesto;
+  }
 }
 
 export default Totalizador;
