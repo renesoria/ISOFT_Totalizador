@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "5c75ffeebd99c596518dcc96d50b131f1fb1a104",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T03:17:38.000Z",
       "message": "feat: mostrar precio neto de la compra",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/5c75ffeebd99c596518dcc96d50b131f1fb1a104"
     },
     "stats": {
       "total": 52,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T03:33:35.000Z",
+      "message": "feat: calcular impuesto para CA",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 61,
+      "additions": 47,
+      "deletions": 14,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

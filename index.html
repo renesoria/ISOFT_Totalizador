@@ -7,14 +7,17 @@
     <h1>Totalizador de venta</h1>
 
     <form id="totalizar-form">
-      <label for="cantidad">Cantidad de items:</label>
-      <input type="number" id="cantidad" />
+  <label for="cantidad">Cantidad de items:</label>
+  <input type="number" id="cantidad" />
 
-      <label for="precio">Precio por item:</label>
-      <input type="number" id="precio" />
+  <label for="precio">Precio por item:</label>
+  <input type="number" id="precio" />
 
-      <input type="submit" value="Totalizar" id="totalizar-button" />
-    </form>
+  <label for="estado">Código de estado:</label>
+  <input type="text" id="estado" maxlength="2" />
+
+  <input type="submit" value="Totalizar" id="totalizar-button" />
+</form>
 
     <div id="resultado-div"></div>
 

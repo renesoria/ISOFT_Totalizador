@@ -32,9 +32,47 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5c75ffeebd99c596518dcc96d50b131f1fb1a104",
     "commitName": "feat: mostrar precio neto de la compra",
     "commitTimestamp": 1789010259646,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1789010997662,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1789011008041,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1789011037348,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1789011180864,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para CA",
+    "commitTimestamp": 1789011217708,
+    "testId": 1
   }
 ]
