@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0bc606dc9a2d0f16a5592dd95ef9507534e33bd5",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T03:39:01.000Z",
       "message": "feat: mostrar precio total con impuesto",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/0bc606dc9a2d0f16a5592dd95ef9507534e33bd5"
     },
     "stats": {
       "total": 17,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T03:44:15.000Z",
+      "message": "feat: calcular impuesto para AL",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 25,
+      "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

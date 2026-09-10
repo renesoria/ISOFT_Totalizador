@@ -100,9 +100,39 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0bc606dc9a2d0f16a5592dd95ef9507534e33bd5",
     "commitName": "feat: mostrar precio total con impuesto",
     "commitTimestamp": 1789011542655,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1789011624476,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789011659019,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789011842975,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para AL",
+    "commitTimestamp": 1789011856730,
+    "testId": 3
   }
 ]

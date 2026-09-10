@@ -3,21 +3,30 @@
   <head>
     <title>Totalizador</title>
   </head>
+
   <body>
     <h1>Totalizador de venta</h1>
 
     <form id="totalizar-form">
-  <label for="cantidad">Cantidad de items:</label>
-  <input type="number" id="cantidad" />
+      <div>
+        <label for="cantidad">Cantidad de items:</label>
+        <input type="number" id="cantidad" />
+      </div>
 
-  <label for="precio">Precio por item:</label>
-  <input type="number" id="precio" />
+      <div>
+        <label for="precio">Precio por item:</label>
+        <input type="number" id="precio" />
+      </div>
 
-  <label for="estado">Código de estado:</label>
-  <input type="text" id="estado" maxlength="2" />
+      <div>
+        <label for="estado">Código de estado:</label>
+        <input type="text" id="estado" maxlength="2" />
+      </div>
 
-  <input type="submit" value="Totalizar" id="totalizar-button" />
-</form>
+      <div>
+        <input type="submit" value="Totalizar" id="totalizar-button" />
+      </div>
+    </form>
 
     <div id="resultado-div"></div>
 

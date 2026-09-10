@@ -17,4 +17,9 @@ describe("Totalizador", () => {
 
   expect(totalizador.calcularPrecioTotal(60, 4.95)).toBeCloseTo(64.95);
 });
+    it("deberia calcular el impuesto para AL", () => {
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(60, "AL")).toBeCloseTo(2.4);
+});
 });
