@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d5e7295d754bad42de9184312bc94376c7e0eca",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T06:36:32.000Z",
       "message": "feat: aplicar descuento fijo a recurrente con alimentos",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/5d5e7295d754bad42de9184312bc94376c7e0eca"
     },
     "stats": {
       "total": 32,
@@ -756,6 +756,25 @@
     },
     "coverage": 94.23,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T06:39:29.000Z",
+      "message": "feat: aplicar descuento fijo a especial con electronicos",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.44,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }

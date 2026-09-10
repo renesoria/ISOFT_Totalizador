@@ -153,6 +153,14 @@ class Totalizador {
     return 100;
   }
 
+  if (
+    tipoCliente === "Especial" &&
+    categoria === "Electrónicos" &&
+    precioNeto > 7000
+  ) {
+    return 200;
+  }
+
   return 0;
     }
     validarCantidad(cantidad) {

@@ -1202,9 +1202,39 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d5e7295d754bad42de9184312bc94376c7e0eca",
     "commitName": "feat: aplicar descuento fijo a recurrente con alimentos",
     "commitTimestamp": 1789022194709,
     "testId": 39
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1789022244417,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1789022273667,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1789022329932,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo a especial con electronicos",
+    "commitTimestamp": 1789022370786,
+    "testId": 40
   }
 ]

@@ -253,4 +253,11 @@ it("deberia aplicar 100 de descuento fijo a Recurrente con Alimentos sobre 3000"
     totalizador.calcularDescuentoFijo(3001, "Alimentos", "Recurrente")
   ).toEqual(100);
 });
+it("deberia aplicar 200 de descuento fijo a Especial con Electrónicos sobre 7000", () => {
+  let totalizador = new Totalizador();
+
+  expect(
+    totalizador.calcularDescuentoFijo(7001, "Electrónicos", "Especial")
+  ).toEqual(200);
+});
 });
