@@ -128,4 +128,9 @@ it("deberia obtener las categorias disponibles con Varios como opcion inicial", 
     "Vestimenta",
   ]);
 });
+it("deberia aplicar 2% de descuento adicional para Alimentos", () => {
+  let totalizador = new Totalizador();
+
+  expect(totalizador.calcularDescuento(1000, "Alimentos")).toEqual(50);
+});
 });

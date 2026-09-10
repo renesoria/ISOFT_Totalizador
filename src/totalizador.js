@@ -24,6 +24,10 @@ const CATEGORIAS = [
   "Vestimenta",
 ];
 
+const DESCUENTOS_CATEGORIA = {
+  Alimentos: 0.02,
+};
+
 class Totalizador {
   calcularPrecioNeto(cantidad, precio) {
     return cantidad * precio;
@@ -39,22 +43,24 @@ class Totalizador {
     return precioNeto * (porcentajeImpuesto / 100);
   }
 
-  calcularDescuento(precioNeto) {
-    const porcentaje = this.obtenerPorcentajeDescuento(precioNeto);
+  calcularDescuento(precioNeto, categoria = "Varios") {
+    const porcentaje = this.obtenerPorcentajeDescuento(precioNeto, categoria);
 
     return precioNeto * (porcentaje / 100);
   }
 
-  obtenerPorcentajeDescuento(precioNeto) {
+  obtenerPorcentajeDescuento(precioNeto, categoria = "Varios") {
     const descuento = DESCUENTOS.find(
       (descuento) => precioNeto >= descuento.minimo
     );
 
+    const descuentoCategoria = DESCUENTOS_CATEGORIA[categoria] || 0;
+
     if (descuento === undefined) {
-      return 0;
+      return descuentoCategoria * 100;
     }
 
-    return descuento.tasa * 100;
+    return (descuento.tasa + descuentoCategoria) * 100;
   }
 
   obtenerPorcentajeImpuesto(estado) {

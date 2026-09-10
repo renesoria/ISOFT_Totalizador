@@ -77,10 +77,16 @@ form.addEventListener("submit", (event) => {
     precioItem
   );
 
-  const descuento = totalizador.calcularDescuento(precioNeto);
+  const descuento = totalizador.calcularDescuento(
+    precioNeto,
+    categoriaProducto
+  );
 
   const porcentajeDescuento =
-    totalizador.obtenerPorcentajeDescuento(precioNeto);
+    totalizador.obtenerPorcentajeDescuento(
+      precioNeto,
+      categoriaProducto
+    );
 
   const precioConDescuento = precioNeto - descuento;
 

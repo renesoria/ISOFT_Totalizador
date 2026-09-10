@@ -614,9 +614,39 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "79dc4dc4affa339029187e752250fae69d531a8d",
     "commitName": "feat: agregar selector de categorias",
     "commitTimestamp": 1789018253030,
     "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789018427452,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789018459918,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789018661561,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento para alimentos",
+    "commitTimestamp": 1789018711249,
+    "testId": 22
   }
 ]

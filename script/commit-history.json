@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79dc4dc4affa339029187e752250fae69d531a8d",
     "author": "Soria",
     "commit": {
       "date": "2026-09-10T05:30:51.000Z",
       "message": "feat: agregar selector de categorias",
-      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/79dc4dc4affa339029187e752250fae69d531a8d"
     },
     "stats": {
       "total": 53,
@@ -414,6 +414,25 @@
     },
     "coverage": 92.59,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Soria",
+    "commit": {
+      "date": "2026-09-10T05:38:29.000Z",
+      "message": "feat: aplicar descuento para alimentos",
+      "url": "https://github.com/renesoria/ISOFT_Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 24,
+      "deletions": 7,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.1,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
